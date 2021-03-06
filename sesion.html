@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Proyecto</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+
+
+<body>
+
+<div class="row">
+   <div class="col container">
+       <h1>Nike</h1>
+   </div>
+</div>
+
+
+<div class="row">
+  <div class="col">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a class="navbar-brand" href="index.html">Inicio</a>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="sucursales.html">Sucursales</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="productos.html">Productos</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="hombres.html">Hombres</a>
+            <a class="dropdown-item" href="mujeres.html">Mujeres</a>
+            <a class="dropdown-item" href="niños.html">Niños</a>
+          </div> 
+          <li class="nav-item">
+            <a class="nav-link" href="sesion.html">Iniciar sesión</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+</div>
+
+<br>
+<br>
+
+
+Iniciar sesión
+<br>
+<br>
+<form>
+  <label for="email">Correo electrónico</label><br>
+  <input type="email" placeholder="Correo electrónico" id="email" name="email"><br>
+
+  <label for="pwd">Contraseña</label><br>
+  <input type="password" placeholder="Contraseña" id="pwd" name="pwd"><br>
+
+  <input type="checkbox" id="sesion" name="sesion" value="Acept">
+  <label for="sesion">Mantener mi sesión iniciada</label><br>
+
+  <input type="checkbox" id="Terms" name="Terms" value="Acept">
+  <label for="Terms">Acepto los Terminos de uso y la Política de privacidad.</label>
+  <br><br>
+  
+  <input type="submit" value="Iniciar sesión">
+  <br><br>
+  <input type="buttom" value="Facebook">
+  
+  <input type="buttom" value="Instagram">
+  <br>
+</form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+body{
+	background-color: #f2f2f2;
+	color: black;
+	text-align: center;
+}
+h1{
+	text-align: left;
+}
+img{
+	width: 100%;
+	height: 400px;
+}
+.car{
+	width: 80%;
+	height: 800px;	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.short{
+	width: 100%;
+	height: 600px;
+}
+.up{
+	width: 100%;
+	height: 300px;
+}
+.cold{
+	width: 80%;
+	height: 1000px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nike{
+	width: 30%;
+	height: 250px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
